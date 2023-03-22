@@ -154,7 +154,7 @@ public class Main {
        int averege = (variante2 + variant1) / 2;
        System.out.println(variant1 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм.");
         System.out.println(variante2 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм.");
-        System.out.println(averege + " дней потребуется  в среднем, чтобы добиться результата похудения.");
+        System.out.println(averege + " день потребуется  в среднем, чтобы добиться результата похудения.");
 
 
 
