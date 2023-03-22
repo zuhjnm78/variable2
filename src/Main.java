@@ -173,9 +173,9 @@ public class Main {
        int newSalaryMasha = salaryMasha + salaryMasha * 10 / 100;
        int newSalaryDenis = salaryDenis + salaryDenis * 10 / 100;
        int newSalaryCristina = salaryCristina + salaryCristina * 10 / 100;
-       int differenceMasha = newSalaryMasha - salaryMasha;
-       int differenceDenis = newSalaryDenis - salaryDenis;
-       int differenceCristina = newSalaryCristina - salaryCristina;
+       int differenceMasha = (newSalaryMasha - salaryMasha) * 12;
+       int differenceDenis = (newSalaryDenis - salaryDenis) * 12;
+       int differenceCristina = (newSalaryCristina - salaryCristina) * 12;
 
        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha +
                " рублей.");
