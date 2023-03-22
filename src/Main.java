@@ -154,7 +154,7 @@ public class Main {
        int averege = (variante2 + variant1) / 2;
        System.out.println(variant1 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм.");
         System.out.println(variante2 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм.");
-        System.out.println(averege + " дней потребуется  в среднем, чтобы добиться результата похудения.");
+        System.out.println(averege + " день потребуется  в среднем, чтобы добиться результата похудения.");
 
 
 
@@ -173,9 +173,9 @@ public class Main {
        int newSalaryMasha = salaryMasha + salaryMasha * 10 / 100;
        int newSalaryDenis = salaryDenis + salaryDenis * 10 / 100;
        int newSalaryCristina = salaryCristina + salaryCristina * 10 / 100;
-       int differenceMasha = newSalaryMasha - salaryMasha;
-       int differenceDenis = newSalaryDenis - salaryDenis;
-       int differenceCristina = newSalaryCristina - salaryCristina;
+       int differenceMasha = (newSalaryMasha - salaryMasha) * 12;
+       int differenceDenis = (newSalaryDenis - salaryDenis) * 12;
+       int differenceCristina = (newSalaryCristina - salaryCristina) * 12;
 
        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha +
                " рублей.");
